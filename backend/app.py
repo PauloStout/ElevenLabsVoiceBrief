@@ -11,7 +11,7 @@ load_dotenv()
 app = Flask(__name__)
 CORS(app)
 
-api_key = os.getenv="sk_ac20cb41b402737f12e5ebf698658c9cd30113b9e1ad099d"
+api_key = os.getenv="api key"
 client = ElevenLabs(api_key=api_key) if api_key else None
 
 DEFAULT_VOICE = "JBFqnCBsd6RMkjVDRZzb"
